@@ -23,29 +23,25 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="active"><a href="#">Film</a></li>
-      <li class="active"><a href="#">Team</a></li>
-      <li class="has-dropdown">
-        <a href="#">Right Button Dropdown</a>
-        <ul class="dropdown">
-          <li><a href="#">First link in dropdown</a></li>
-        </ul>
-      </li>
+      <li><a href="#">Film</a></li>
+      <li><a href="#">Team</a></li>
     </ul>
   </section>
 </nav>
 
     <ul data-orbit
     data-options="animation:slide;
-                  pause_on_hover:true;
+                  timer_speed: 5500;
+                  pause_on_hover:false;
                   animation_speed:500;
                   navigation_arrows:false;
                   bullets:false;
                   next_on_click: true;
                   timer_show_progress_bar: false;
                   slide_number: false;
-                   variable_height: false;">
-  <li style="background-image: url('http://placehold.it/800x600/000/&amp;text=Image 2');"></li>
+                  variable_height: false;">
+  <li data-orbit-slide="1" style="background-image: url('http://placehold.it/800x600/000/&amp;text=Image 2');"></li>
+    <li  data-orbit-slide="2" style="background-image: url('http://placehold.it/800x600/000/&amp;text=Image 2');"></li>
 </ul>
 <div class="box_container">
     <div class="row">
