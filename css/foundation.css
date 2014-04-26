@@ -1253,7 +1253,8 @@ meta.foundation-mq-topbar {
   line-height: 45px;
   position: relative;
   background: #333333;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+  z-index: 2;  }
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
